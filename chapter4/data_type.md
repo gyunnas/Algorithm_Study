@@ -38,7 +38,8 @@
 ex) bool, int, float, tuple, str
 
 **가변객체**  
-: 값을 변경할 수 있다.
+: 값을 변경할 수 있다.  
+ex) list, set, dict
 ```
 >>> a = [1,2,3,4,5]
 >>> b = a
