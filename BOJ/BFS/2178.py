@@ -29,9 +29,8 @@ while queue:
         if arr[nx][ny] == 0:
             continue
 
-        if arr[nx][ny] == 1 and dist[nx][ny] == -1:
+        if arr[nx][ny] == 1 and dist[nx][ny] == -1:  # 아직 지나가지 않은 지나갈 수 있는 길
             queue.append((nx, ny))
-            dist[nx][ny] = dist[loc_x][loc_y] + 1
+            dist[nx][ny] = dist[loc_x][loc_y] + 1  # 현재 거리 + 1
 
 print(dist[n - 1][m - 1])
-print(dist)

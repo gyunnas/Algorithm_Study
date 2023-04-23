@@ -10,8 +10,8 @@
 1. 두 수의 합  
 https://leetcode.com/problems/two-sum/
 
-2. 빗물 트래핑
-
+2. 빗물 트래핑⭐⭐  
+https://leetcode.com/problems/trapping-rain-water/
 
 3. 세 수의 합  
 https://leetcode.com/problems/3sum/

@@ -56,15 +56,8 @@ while queue2:
             print(time)
             exit()
 
-        if matrix_2[nx][ny] == "." and time < matrix[nx][ny]:
+        if matrix_2[nx][ny] == "." and (matrix[nx][ny] == "." or time < matrix[nx][ny]):
             matrix_2[nx][ny] = time
             queue2.append((nx, ny, time))
 
-            # if nx == n - 1 or nx == 0 or ny == m - 1 or ny == 0:
-            #     chk = True
-            #     min_value = min(min_value, time + 1)
-
-if chk:
-    print(min_value)
-else:
-    print("IMPOSSIBLE")
+print("IMPOSSIBLE")
