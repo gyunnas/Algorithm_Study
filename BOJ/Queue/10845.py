@@ -12,7 +12,7 @@ for i in range(N):
         queue.append(order[1])
 
     elif order[0] == "pop":
-        if order:
+        if queue:
             print(queue.pop(0))
         else:
             print(-1)
